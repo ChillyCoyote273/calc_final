@@ -171,7 +171,7 @@ def part_four() -> None:
 
     mass = 2000
     desired_speed = 5.0 / vel_to_mph
-    print(f'To effectively slow a Jeep Wrangler weighing {mass} kg ({int(mass * 2.2)} lbs) down to a speed of 5 mph, you would need a parachute with {round(-g * mass / (0.37 * desired_speed**2), 2)} square meters of surface area.', end='')
+    print(f'To effectively slow a Jeep Wrangler weighing {mass} kg ({int(mass * 2.2)} lbs) down to a speed of 5 mph, you would need a parachute with {round(-g * mass / (0.37 * desired_speed**2), 2)} square meters of surface area.', end=' ')
     print(f'It could be a square with {round(np.sqrt(-g * mass / (0.37 * desired_speed**2)))} meter long sides.')
 
 
